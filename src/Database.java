@@ -3,7 +3,6 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 class Database {
-
     public interface IDB {
         public class PostgreDataBase implements IDB{
             public Connection getConnection() throws SQLException, ClassNotFoundException {
