@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class CourseList {
     private ArrayList<Course> courseList;
 
-
     public CourseList()
     {
         courseList = new ArrayList<>();
