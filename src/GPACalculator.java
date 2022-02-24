@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class GPACalculator {
     private static GPACalculator onlyInstance = null;
 
-
     public static GPACalculator getInstance()
     {
         if (onlyInstance == null)
