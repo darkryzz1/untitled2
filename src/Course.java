@@ -5,7 +5,6 @@ public class Course
     private int credit;
     private String grade;
 
-
     public Course()
     {
         name = "";
